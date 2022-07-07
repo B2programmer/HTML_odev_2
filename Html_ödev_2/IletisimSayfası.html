@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>B2 Airsoft İletişim Sayfası</title>
+</head>
+<body>
+
+    <h1>
+        <strong>
+            <u>
+                <center>
+                    <span style="color:cornflowerblue">
+                    B2 Airsoft İletişim Sayfasına Hoşgeldin
+                    </span>
+                </center> 
+            </u>
+        </strong>
+    </h1>
+
+    <h2>İletişim</h2>
+    <hr>
+    <h3>Firma Adı:&emsp;B2airsoftshop</h3>
+    <hr>
+    <h3>Yetkili kişi:&emsp;Batuhan Akyazı</h3>
+    <hr>
+    <h3><a href="tel:+11880">Telefon:&emsp;+11880</a></h3>
+    <hr>
+    <h3>Adress:&emsp;ANKARA/ETİMESGUT blah blah cad. blah mah.</h3>
+    <hr>
+    <h3><a href="b2airsoftshop@airsoft.com">Email:&emsp;b2airsoftshop@airsoft.com</h3></a>
+    <hr>
+    <!--<a href mailto ve tel yapıları ile verilen eposta ve telefona köprü kuruldu-->
+    <br>
+    <h2><u><span style="color:blueviolet">İLETİŞİM FORMU</span></u></h2>
+    <br>
+    <form action="process.php" method="GET"> <!--<form action procces ile form oluştrma yapıldı-->
+        <div>
+                <label>First Name</label>              <!--text mail tagları ve kutu içi fon ayarı-->
+                <input type="text" name="firstName"
+                placeholder="ADINIZI GIRINIZ">
+    
+        </div>
+        <br>
+        <div>
+                <label>Last Name</label>
+                <input type="text" name="lastName"
+                placeholder="SOYADINIZI GIRINIZ">
+        </div>
+        <br>
+        <div>
+                <label>Email</label>&emsp;&emsp;
+                <input type="email" name="email">
+                
+        </div>
+         <br>
+        <div>
+                <label>Message</label>&emsp;
+                <textarea name="mesajınız"></textarea>
+        </div>
+         <br>
+        <div>
+                <label>Cinsiyetiniz</label>
+                <select name="cinsiyetiniz">
+                    <option value="Erkek">ERKEK</option><!--option degerleri ile blockline içerisi secm-->
+                    <option value="Kız">KIZ</option>
+                    <option value="Diğer">DİĞER</option>
+                </select>
+        </div>
+        <br>
+        <div>
+            <label>YAŞ</label>
+            <input type="number" name="Yaş" value="18">
+        </div>
+        <br>
+        <div>
+            <label>DOĞUM YILINIZ</label>
+            <input type="date" name="doğum yılınız">
+    
+        </div>
+        <br>
+        <input type="submit" name="submit"
+        value="YOLLA">         <!--submit ile form gonderme butonu ayarlandı-->
+   
+<div class="background-image"></div>
+      
+   </body>  
+<style>
+    *  {
+      margin: 0;
+      padding: 0;
+    }
+    .background-image {
+      background-image: url('https://i.hizliresim.com/5ns9mks.png'); 
+      background-size: cover;
+      background-repeat: no-repat;
+      background-position: center center;
+      height: 100vh;
+     
+      }
+      
+  </style>   
+  <!--/div class back ground özelliği altında <style hattı içersine background ayarları yapıldı-->       
+</html>

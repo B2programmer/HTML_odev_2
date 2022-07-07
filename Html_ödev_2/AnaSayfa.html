@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>B2AirSoftShop</title>
+</head>
+<!-- !+enter emmet kodu çağrılarak html iskelet yapısı oluşturuldu(1) -->
+<!-- <title></title> browser sekmesi ismi oluşturuldu(2) -->
+
+<body>
+  <h1 id="top"><U>
+    <strong>
+      
+        <center><span style="color:darkolivegreen">B2 AIRSOFT SHOP</span></center>
+    </U></strong>
+</h1>
+<!--h1>strong>center yapısı ile Başlığı sayfa ortasına konumlandırıp Bold yapıda metin seçimi yapıldı(3)-->
+    <!--<span></span> kodu ile metine inline blogu oluşturuldu(4)-->
+    <!--stle="color" ile ana başlığa renk verildi(5)-->
+    <!--(3) teki yapı içerisinde(4)ve(5) yapısını birleştirme özelliği yapamadım(6)-->
+    <!--<h1 içine id="top" kimliği ekledim hakkımızda kısımındaki linkler üzerinden buraya dönüş sağlanması için(7)-->
+<br>
+<hr> 
+<!-- <hr> kodu ile ana başlık altına ayırma çizgisi kullanıldı(8) -->
+<!--<br> kodu ile ana başlık ile altındaki ayırma çizigisi arası mesafe verildi(9)-->
+
+<h2>
+  <a href="#footer">
+    <span style="float:right"><p align="right">
+        <u><font size="8" color="red">H</font></u>
+           <font size="5" color="black">akkımızda</font></p>   
+    </span>
+  </a>    
+</h2>
+<!--h2>span yapısı ile alt başlık halinde Hakkımızda kısmı oluşturuldu(10)-->
+<!--span style= yapısı ile istenen metin sayfanın sağ tarafına konumlandırıldı(11)-->
+<!--font size ve color yapıları ile metinin Baş harf ve diğer harflerinin stili düzenlendi(12)-->
+<!--<u> yapısı ile 'H' harfinin altında stil verildi(13) -->
+
+<h2>
+    <u><font size="8" color="darkolivegreen">Ü</font></u>
+       <font size="5" color="black">RÜNLERİMİZ</font>
+</h2> 
+<br>
+<p align="right">
+  <a href="IletisimSayfası.html">
+  <font size="8" color="blue">İ</font>
+  <font size="5" color="blue">letişim</font>
+  
+  </a>
+</p>
+
+<!--<h2> yapısı ile alt başlık metin ürünlerimiz kısmı için oluşturuldu(14)-->
+<!--<br> yapısı ile 'ürünlerimiz' kısımı ile altında oluşan liste elemanları arası boşluk bırakıldı(15)-->
+<!--<a href="" yapısı ile iletişim sekmesine geçiş linki verildi <p align="right" ile yazı sayfanın sağ tarafına alındı(16)-->
+
+<div>
+
+
+    <ul style="list-style-type:disc">
+      <font size="5">
+                    <li><u><a href="Airsoft_tabanca.html" target="_blank"> Airsoft Tabancalar</a></u></li>
+                    <li><u><a href="Airsoft_tufek.html" target="_blank"> Airsoft Tüfekler</a></u></li>
+                    <li><u><a href="Airsoft_ekipman.html" target="_blank"> Airsoft Ekipmanlar</a></u></li>
+     </font>
+   </ul>
+</div>
+<!--ul>li*3>u yapısı ile 3 adet alt çizgili liste elemanı oluşturuldu-->
+<!-- style="list-style-typ:disc" yapılmasına rağmen background-image ayarlarını yaptığımdan dolayı olduğunu düşündüğüm liste önü sıralama sembollerini göremedim. sayfayı incele dediğim zaman
+  <style> element.style {
+    list-style-type: disc;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+user agent stylesheet
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+</style> kısımıda  => padding:0 ayarını kapatınca sıralama sembollerinin geldğini gördüm fakat html dosyamın içinde bu değişikliği sağlayamadım!!(17)-->
+
+<body>
+
+  <div class="background-image"></div>
+  
+
+  <style>
+    *  {
+      margin: 0;
+      padding: 0;
+    }
+    .background-image {
+      background-image: url('https://i.hizliresim.com/mq5arhb.jpg');
+      background-size: cover;
+      background-repeat: no-repat;
+      background-position: center center;
+      height: 100vh;
+      }
+  </style>  
+  <!--Doğru kullanım olduğundan emin olmamakla beraber 2. bir <body> yapısının baş kısmını oluşturup içine <div yapısı açıp class belirlemesi arka plan seçimi yaptım-->
+  <!--devamı olarak <style yapısı ile background resminin hedef dizinini,boyutunu,sayfayı kaplmasını,tekrar etmemesini,konumunu ayarladım(18)-->  
+             
+</br>
+
+
+ <hr>   
+ <h2 id="footer">       <!-- id=footer yapısı ile click yapıldıgında gidilcek konum id'si veridli(19)-->
+     <font color=Red> 
+             <u>HAKKIMIZDA</u>
+      </font>
+ </h2>
+ 
+<br>
+ <h3><p>
+       <font color=green>
+        Biz kimiz?
+       </font>
+     </p>
+  </h3> 
+ 
+ <h4>
+   <p>
+    <em>
+  B2airsoft B(TWO) Batuhan savunma ve silah sanayisinin atış ve spor fabrikasına ait bir kuruluştur.
+    </em>
+   </p>
+ </h4>
+<br>
+
+ <h3>
+  <font color=green>
+                 <p>
+                   <a href="#top">B2airsoftshop.com</a>'da alışveriş yapmak güvenli midir ?
+                 </p>
+  </font>
+ </h3>
+ 
+ <h4><p><em>
+      <a href="#top">B2airsoftshop.com</a>'da yaptığınız alışverişler kesinlikle güvenlidir. Alışveriş esnasında kullandığınız kredi kartı bilgileriniz kesinlikle kaydedilmez ve görüntülenemez. Kredi kartı bilgiler doğrudan ilgili bankanın sistemine şifrelenmiş bir şekilde gönderilir ve ilgili tutar kart limitinden düşer. Kredi kartı bilgileri dışında kalan sevkiyat ve üyelik bilgiler ise sadece yetkili personel tarafından faturalandırma işleminde kullanılır.
+</em></p></h4>
+<br>
+
+<h3>
+   <font color=green>                    
+    <p><a href="#top">B2airsoftshop.com</a>'da alışveriş yaparken verdiğim bilgilerin gizli tutulduğundan nasıl emin olabilirim ?</p>                 
+  </font>
+</h3>
+
+<p>
+  <em>
+    <h4>Sitemizde alışveriş yaparken kullandığınız sevkiyat bilgileri - üyelik bilgileri son derece teknolojik , şifrelenmiş ve fiziki güvenliği sağlanmış ortamlarda saklanır. Bu bilgilere sadece yetkili personel ulaşabilir <a href="#top">B2airsoftshop.com</a> olarak sitemize üye olan ve sitemizden alışveriş yapan üyelerimizin bilgilerini hiç bir kurum , kuruluş veya tüzel kişilikle paylaşmayacağımızı taahhüt ve beyan ederiz.</p></em></h4>
+   
+  <!--<em >>ahref ><font yapıları ile düzenlemeler yapıldı(20)-->
+
+</body>
+</html>
